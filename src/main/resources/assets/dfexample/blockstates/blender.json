@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": {"model": "dfexample:block/blender_pre", "y": 270},
+        "facing=south": { "model": "dfexample:block/blender_pre", "y": 90},
+        "facing=east": { "model": "dfexample:block/blender_pre"},
+        "facing=west": { "model": "dfexample:block/blender_pre", "y": 180}
+    }
+}

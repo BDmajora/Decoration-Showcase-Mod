@@ -1,6 +1,0 @@
-{
-  "parent": "dfexample:block/fence_post",
-  "textures": {
-    "texture": "dfexample:block/birch_planks"
-  }
-}

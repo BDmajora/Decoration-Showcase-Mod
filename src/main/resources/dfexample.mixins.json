@@ -2,10 +2,12 @@
     "required": true,
     "minVersion": "0.8",
     "package": "useless.dfexample.mixin",
+  "plugin": "dfexampleMixinPlugin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
     ],
     "client": [
+      "Entity.EntityItemMixin"
     ],
     "injectors": {
         "defaultRequire": 1
