@@ -1,4 +1,4 @@
-package useless.dfexample.mixin.Entity;
+package bdmajora.decoration.mixin.Entity;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.net.packet.Packet100OpenWindow;

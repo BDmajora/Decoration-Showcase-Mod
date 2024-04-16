@@ -1,4 +1,4 @@
-package useless.dfexample;
+package bdmajora.decoration;
 
 import com.google.common.collect.ImmutableMap;
 import net.fabricmc.loader.api.FabricLoader;
@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Supplier;
 
-public final class dfexampleMixinPlugin implements IMixinConfigPlugin {
+public final class decorationMixinPlugin implements IMixinConfigPlugin {
 	private static final Supplier<Boolean> TRUE = () -> true;
 	private static final Map<String, Supplier<Boolean>> CONDITIONS = ImmutableMap.of(
 	);

@@ -1,4 +1,4 @@
-package useless.dfexample.mixin.Entity;
+package bdmajora.decoration.mixin.Entity;
 
 import net.minecraft.core.achievement.stat.StatList;
 import net.minecraft.core.entity.EntityItem;

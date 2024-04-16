@@ -1,4 +1,4 @@
-package useless.dfexample.block.metastates;
+package bdmajora.decoration.block.metastates;
 
 import net.minecraft.core.block.Block;
 import net.minecraft.core.util.helper.Direction;

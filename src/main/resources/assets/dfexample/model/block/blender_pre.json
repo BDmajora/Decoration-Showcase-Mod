@@ -1,8 +1,0 @@
-{
-    "parent": "dfexample:block/blender",
-    "textures": {
-        "1": "dfexample:block/gray_concrete",
-        "2": "dfexample:block/white_concrete",
-        "3": "dfexample:block/white_stained_glass"
-    }
-}

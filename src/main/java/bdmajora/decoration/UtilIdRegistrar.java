@@ -1,4 +1,4 @@
-package useless.dfexample;
+package bdmajora.decoration;
 
 import net.minecraft.core.item.Item;
 

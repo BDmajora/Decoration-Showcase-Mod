@@ -1,12 +1,12 @@
-package useless.dfexample.item;
+package bdmajora.decoration.item;
 
 import net.minecraft.core.item.Item;
 import net.minecraft.core.item.ItemFoodStackable;
 import net.minecraft.core.item.ItemSeeds;
 import turniplabs.halplibe.helper.ItemHelper;
-import useless.dfexample.UtilIdRegistrar;
+import bdmajora.decoration.UtilIdRegistrar;
 
-import static useless.dfexample.DFExampleMod.MOD_ID;
+import static bdmajora.decoration.decoration.MOD_ID;
 
 public class ModItems {
 	// Items

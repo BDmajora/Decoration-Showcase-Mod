@@ -1,18 +1,18 @@
-package useless.dfexample.block;
+package bdmajora.decoration.block;
 
 import net.minecraft.core.block.Block;
 import net.minecraft.core.block.material.Material;
 import net.minecraft.core.block.tag.BlockTags;
 import net.minecraft.core.sound.BlockSounds;
 import turniplabs.halplibe.helper.BlockBuilder;
-import useless.dfexample.UtilIdRegistrar;
-import useless.dfexample.block.dragonfly.BlockBlender;
-import useless.dfexample.block.dragonfly.BlockModel;
-import useless.dfexample.block.metastates.BlenderMetaState;
+import bdmajora.decoration.UtilIdRegistrar;
+import bdmajora.decoration.block.dragonfly.BlockBlender;
+import bdmajora.decoration.block.dragonfly.BlockModel;
+import bdmajora.decoration.block.metastates.BlenderMetaState;
 import useless.dragonfly.helper.ModelHelper;
 import useless.dragonfly.model.block.BlockModelDragonFly;
 
-import static useless.dfexample.DFExampleMod.MOD_ID;
+import static bdmajora.decoration.decoration.MOD_ID;
 
 public class ModBlocks {
 

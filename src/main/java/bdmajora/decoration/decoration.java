@@ -1,4 +1,4 @@
-package useless.dfexample;
+package bdmajora.decoration;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.entrypoint.PreLaunchEntrypoint;
@@ -8,14 +8,14 @@ import turniplabs.halplibe.util.ClientStartEntrypoint;
 import turniplabs.halplibe.util.ConfigHandler;
 import turniplabs.halplibe.util.GameStartEntrypoint;
 import turniplabs.halplibe.util.RecipeEntrypoint;
-import useless.dfexample.block.ModBlocks;
-import useless.dfexample.item.ModItems;
+import bdmajora.decoration.block.ModBlocks;
+import bdmajora.decoration.item.ModItems;
 
 import java.util.Properties;
 
 
-public class DFExampleMod implements ClientStartEntrypoint, ModInitializer, GameStartEntrypoint, PreLaunchEntrypoint, RecipeEntrypoint {
-    public static final String MOD_ID = "dfexample";
+public class decoration implements ClientStartEntrypoint, ModInitializer, GameStartEntrypoint, PreLaunchEntrypoint, RecipeEntrypoint {
+    public static final String MOD_ID = "decoration";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "dfexample",
+  "id": "decoration",
   "version": "${version}",
 
-  "name": "Dragon Fly Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Decoration-Showcase-Mod",
+  "description": "Mod that backports some of my favorite decoration mods from 1.12.2 and 1.18.2.",
   "authors": [
-    "Useless"
+    "bdmajora"
   ],
   "contact": {
     "homepage": "",
@@ -18,14 +18,14 @@
   "environment": "*",
   "entrypoints": {
     "beforeGameStart": [
-        "useless.dfexample.DFExampleMod"
+        "bdmajora.decoration.decoration"
     ],
 		"beforeClientStart": [
-			"useless.dfexample.DFExampleMod"
+			"bdmajora.decoration.decoration"
 		]
   },
   "mixins": [
-      "dfexample.mixins.json"
+      "decoration.mixins.json"
   ],
 
   "depends": {

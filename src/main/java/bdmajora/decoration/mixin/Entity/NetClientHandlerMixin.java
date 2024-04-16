@@ -1,4 +1,4 @@
-package useless.dfexample.mixin.Entity;
+package bdmajor.decoration.mixin.Entity;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.net.handler.NetClientHandler;
