@@ -1,12 +1,12 @@
 {
-  "parent": "block/cube",
+  "parent": "decoration:block/cube",
   "textures": {
-    "down": "gymcraft:blocks/brick_texture",
-    "up": "gymcraft:blocks/brick_texture",
-    "north": "gymcraft:blocks/brick_texture",
-    "east": "gymcraft:blocks/brick_texture",
-    "south": "gymcraft:blocks/brick_texture",
-    "west": "gymcraft:blocks/brick_texture",
-    "particle": "gymcraft:blocks/brick_texture"
+    "down": "decoration:block/brick_texture",
+    "up": "decoration:block/brick_texture",
+    "north": "decoration:block/brick_texture",
+    "east": "decoration:block/brick_texture",
+    "south": "decoration:block/brick_texture",
+    "west": "decoration:block/brick_texture",
+    "particle": "decoration:block/brick_texture"
   }
 }

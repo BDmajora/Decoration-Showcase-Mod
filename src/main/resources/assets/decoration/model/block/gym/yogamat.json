@@ -1,8 +1,8 @@
 {
-  "parent": "gymcraft:custom/yoga_mat_model",
+  "parent": "decoration:custom/yoga_mat_model",
   "textures": {
-    "all": "gymcraft:blocks/yoga_mat_gui",
-    "particle": "gymcraft:blocks/yoga_mat_gui",
-    "yoga_mat_texture": "gymcraft:blocks/yoga_mat_texture"
+    "all": "decoration:block/yoga_mat_gui",
+    "particle": "decoration:block/yoga_mat_gui",
+    "yoga_mat_texture": "decoration:block/yoga_mat_texture"
   }
 }

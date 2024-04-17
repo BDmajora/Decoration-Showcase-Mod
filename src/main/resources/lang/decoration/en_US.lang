@@ -7,6 +7,12 @@ tile.decoration.gymLocker.name=Gym Locker
 tile.decoration.carpet1.name=Carpet 1
 tile.decoration.carpet2.name=Carpet 2
 tile.decoration.treadmill.name=Treadmill
+tile.decoration.yogamat.name=Yogamat
+tile.decoration.aerobicStepper.name=Aerobic Stepper
+tile.decoration.benchgc.name=Benchgc
+tile.decoration.brickwallgc.name=Brick Wall gc
+tile.decoration.crossTrainer.name=CrossTrainer
+
 
 //Arcade Machines
 tile.decoration.tetris.name=Tetris
