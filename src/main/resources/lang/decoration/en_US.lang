@@ -12,6 +12,9 @@ tile.decoration.aerobicStepper.name=Aerobic Stepper
 tile.decoration.benchgc.name=Benchgc
 tile.decoration.brickwallgc.name=Brick Wall gc
 tile.decoration.crossTrainer.name=CrossTrainer
+tile.decoration.gymBallPurple.name=Gym Ball Purple
+tile.decoration.gymBallLime.name=Gym Ball Lime
+tile.decoration.gymBallSilver.name=Gym Ball Silver
 
 
 //Arcade Machines

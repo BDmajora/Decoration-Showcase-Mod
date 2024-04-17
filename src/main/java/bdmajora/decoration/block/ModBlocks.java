@@ -74,6 +74,18 @@ public class ModBlocks {
 			getOrCreateBlockState(MOD_ID, "gym/crosstrainer.json"), new CrossTrainerMetaState(), true))
 		.build(new BlockBenchgc("crossTrainer", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/crosstrainer.json")));
 
+	public static final Block gymBallPurple = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/gymballpurple.json")))
+		.build(new BlockModel("gymBallPurple", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/gymballpurple.json")));
+
+	public static final Block gymBallSilver = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/gymballsilver.json")))
+		.build(new BlockModel("gymBallSilver", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/gymballsilver.json")));
+
+	public static final Block gymBallLime = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/gymballlime.json")))
+		.build(new BlockModel("gymBallLime", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/gymballlime.json")));
+
 	//arcade
 	public static final Block creeperPlushy = new BlockBuilder(MOD_ID)
 		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/arcade/creeperplushie.json")))

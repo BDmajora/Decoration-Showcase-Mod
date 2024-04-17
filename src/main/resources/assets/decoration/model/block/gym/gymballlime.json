@@ -1,8 +1,8 @@
 {
-  "parent": "gymcraft:custom/purple_ball_model",
+  "parent": "decoration:custom/purple_ball_model",
   "textures": {
-    "all": "gymcraft:blocks/lime_ball_gui",
-    "particle": "gymcraft:blocks/lime_ball_gui",
-    "ball_purple_texture": "gymcraft:blocks/ball_lime_texture"
+    "all": "decoration:block/lime_ball_gui",
+    "particle": "decoration:block/lime_ball_gui",
+    "ball_purple_texture": "decoration:block/ball_lime_texture"
   }
 }
