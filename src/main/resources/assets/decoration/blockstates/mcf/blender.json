@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": {"model": "decoration:block/mcf/blender_pre", "y": 270},
+        "facing=south": { "model": "decoration:block/mcf/blender_pre", "y": 90},
+        "facing=east": { "model": "decoration:block/mcf/blender_pre"},
+        "facing=west": { "model": "decoration:block/mcf/blender_pre", "y": 180}
+    }
+}

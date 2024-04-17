@@ -1,0 +1,2763 @@
+{
+  "__comment": "Designed by Leonneary1990 with Cubik Studio - https://cubik.studio",
+  "elements": [
+    {
+      "__comment": "wood---",
+      "from": [
+        0,
+        0,
+        1.5
+      ],
+      "to": [
+        16,
+        32,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        }
+      }
+    },
+    {
+      "__comment": "wood---1",
+      "from": [
+        0,
+        1.5,
+        1.25
+      ],
+      "to": [
+        16,
+        32,
+        1.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2,
+            8.34375,
+            4,
+            8.375
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            2,
+            8.34375,
+            4,
+            8.3125
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            2,
+            8.375,
+            4,
+            12.1875
+          ],
+          "texture": "#wood_texture2"
+        },
+        "south": {
+          "uv": [
+            4,
+            12.1875,
+            2,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "west": {
+          "uv": [
+            8.78125,
+            8.375,
+            8.75,
+            12.1875
+          ],
+          "texture": "#wood_texture2"
+        },
+        "east": {
+          "uv": [
+            8.75,
+            12.1875,
+            8.78125,
+            16
+          ],
+          "texture": "#wood_texture2"
+        }
+      }
+    },
+    {
+      "__comment": "wood---2",
+      "from": [
+        8.25,
+        1.5,
+        1
+      ],
+      "to": [
+        15.75,
+        17,
+        1.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        }
+      }
+    },
+    {
+      "__comment": "wood---3",
+      "from": [
+        8.25,
+        17.5,
+        1
+      ],
+      "to": [
+        15.75,
+        31.75,
+        1.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        }
+      }
+    },
+    {
+      "__comment": "wood---4",
+      "from": [
+        0.25,
+        1.5,
+        1
+      ],
+      "to": [
+        7.75,
+        17,
+        1.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        }
+      }
+    },
+    {
+      "__comment": "wood---5",
+      "from": [
+        0.25,
+        17.5,
+        1
+      ],
+      "to": [
+        7.75,
+        31.75,
+        1.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood_texture2"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        8.5,
+        8.5,
+        0.75
+      ],
+      "to": [
+        10.75,
+        10.75,
+        1
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.25,
+            9,
+            4.5,
+            9.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0,
+            8.75,
+            2.25,
+            8.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            0,
+            11.5,
+            2.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            13.75,
+            0,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10,
+            9.25,
+            9.75,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            9.25,
+            9.75,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        8.5,
+        23.75,
+        0.75
+      ],
+      "to": [
+        10.75,
+        26,
+        1
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            8,
+            2.25,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            2.25,
+            8.75,
+            4.5,
+            8.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            2.25,
+            11.5,
+            4.5,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            13.75,
+            2.25,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            11.75,
+            13.75,
+            11.5,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10.75,
+            13.75,
+            11,
+            16
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        9.5,
+        9,
+        0.5
+      ],
+      "to": [
+        10.25,
+        9.25,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.25,
+            8.25,
+            3,
+            8.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            2.25,
+            8.25,
+            3,
+            8
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            3,
+            8,
+            3.75,
+            8.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            8.25,
+            3,
+            8.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            12,
+            10,
+            12.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10,
+            12.25,
+            10.25,
+            12.5
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        10,
+        9.25,
+        0.5
+      ],
+      "to": [
+        10.25,
+        9.75,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10,
+            11.75,
+            10.25,
+            12
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            10,
+            11.25,
+            10.25,
+            11
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            9,
+            8.75,
+            9.25,
+            9.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            9,
+            8.75,
+            8.75,
+            9.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            9.25,
+            8.25,
+            9,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            8.75,
+            8.25,
+            9,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        9.5,
+        10,
+        0.5
+      ],
+      "to": [
+        10.25,
+        10.25,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6,
+            9,
+            6.75,
+            9.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            5.25,
+            9,
+            6,
+            8.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            5.25,
+            8.5,
+            6,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            8.75,
+            6,
+            9
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            10.5,
+            10,
+            10.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10,
+            10.75,
+            10.25,
+            11
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        9.5,
+        24.25,
+        0.5
+      ],
+      "to": [
+        10.25,
+        24.5,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6,
+            8.5,
+            6.75,
+            8.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            6,
+            8.5,
+            6.75,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            6.75,
+            9,
+            7.5,
+            9.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            8,
+            6,
+            8.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            13.5,
+            12.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10,
+            10.25,
+            10.25,
+            10.5
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        10,
+        24.5,
+        0.5
+      ],
+      "to": [
+        10.25,
+        25,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14.25,
+            13.5,
+            14.5,
+            13.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            15,
+            13.75,
+            15.25,
+            13.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            14,
+            14.25,
+            14.25,
+            14.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            10,
+            8.25,
+            9.75,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            14.75,
+            14.25,
+            14.5,
+            14.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            14.25,
+            14.25,
+            14.5,
+            14.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        9.5,
+        25.25,
+        0.5
+      ],
+      "to": [
+        10.25,
+        25.5,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.5,
+            8,
+            8.25,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            14,
+            16,
+            14.75,
+            15.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            14,
+            15.5,
+            14.75,
+            15.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            15.5,
+            15.75,
+            14.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            13.5,
+            15.75,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            15.5,
+            13.5,
+            15.75,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        9.5,
+        9.5,
+        0.5
+      ],
+      "to": [
+        10,
+        9.75,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.75,
+            8,
+            9.25,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            10.75,
+            13.75,
+            11.25,
+            13.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            15.25,
+            13.75,
+            15.75,
+            14
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            13.5,
+            10.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            12.75,
+            10.25,
+            13
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10.25,
+            12.5,
+            10.5,
+            12.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        9.5,
+        24.75,
+        0.5
+      ],
+      "to": [
+        10,
+        25,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.25,
+            14,
+            15.75,
+            14.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            15.25,
+            14.5,
+            15.75,
+            14.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            15.25,
+            14.5,
+            15.75,
+            14.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            15.25,
+            14.5,
+            14.75,
+            14.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            14.75,
+            13.5,
+            14.5,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            14.75,
+            13.5,
+            15,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        9.5,
+        9.25,
+        0.5
+      ],
+      "to": [
+        9.75,
+        9.5,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            13.75,
+            13.5,
+            14,
+            13.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            13.5,
+            13.75,
+            13.75,
+            13.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            13,
+            13.5,
+            13.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            13.5,
+            13.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            14.75,
+            15.75,
+            15
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            15.75,
+            13.75,
+            16,
+            14
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        9.5,
+        24.5,
+        0.5
+      ],
+      "to": [
+        9.75,
+        24.75,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            9.75,
+            8,
+            10,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            10.25,
+            11.5,
+            10.5,
+            11.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            10.25,
+            12.25,
+            10.5,
+            12.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            12,
+            10.25,
+            12.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            13.25,
+            10.25,
+            13.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10.25,
+            13,
+            10.5,
+            13.25
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        8.5,
+        8.5,
+        0
+      ],
+      "to": [
+        9.25,
+        10.75,
+        0.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.75,
+            8.25,
+            4.5,
+            8.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            14,
+            15.25,
+            14.75,
+            15
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            6.75,
+            9.25,
+            7.5,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            7.5,
+            11.5,
+            6.75,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10,
+            11.5,
+            9.75,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            9.75,
+            13.75,
+            10,
+            16
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        8.5,
+        23.75,
+        0
+      ],
+      "to": [
+        9.25,
+        26,
+        0.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14.75,
+            15,
+            15.5,
+            15.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            14,
+            15,
+            14.75,
+            14.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            7.5,
+            11.5,
+            8.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            13.75,
+            7.5,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            13.75,
+            10.25,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10,
+            13.75,
+            10.25,
+            16
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        8.5,
+        8.5,
+        0.25
+      ],
+      "to": [
+        8.75,
+        10.75,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            9.25,
+            8.25,
+            9.5,
+            8.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            9.5,
+            9.25,
+            9.75,
+            8.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            11.25,
+            13.75,
+            11.5,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            13.75,
+            11,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            9.25,
+            13.75,
+            8.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            8.25,
+            9.25,
+            8.75,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        8.5,
+        23.75,
+        0.25
+      ],
+      "to": [
+        8.75,
+        26,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            9.25,
+            8.75,
+            9.5,
+            9.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            8.5,
+            8.75,
+            8.75,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            9.25,
+            9.25,
+            9.5,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            13.75,
+            12.25,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            8.75,
+            13.75,
+            8.25,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            8.25,
+            11.5,
+            8.75,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        0.5,
+        8.5,
+        0.75
+      ],
+      "to": [
+        2.75,
+        10.75,
+        1
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            8.25,
+            2.25,
+            8.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            2.25,
+            9,
+            4.5,
+            8.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            4.5,
+            13.75,
+            6.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            11.5,
+            4.5,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            9.5,
+            11.5,
+            9.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10.5,
+            13.75,
+            10.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        0.5,
+        23.75,
+        0.75
+      ],
+      "to": [
+        2.75,
+        26,
+        1
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            8.75,
+            2.25,
+            9
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0,
+            9.25,
+            2.25,
+            9
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            2.25,
+            9.25,
+            4.5,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            9.25,
+            0,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            9.75,
+            11.5,
+            9.5,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            8,
+            9.25,
+            8.25,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        1.5,
+        9,
+        0.5
+      ],
+      "to": [
+        2.25,
+        9.25,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.75,
+            8,
+            4.5,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            4.5,
+            9.25,
+            5.25,
+            9
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            4.5,
+            8.5,
+            5.25,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            8.75,
+            4.5,
+            9
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            13.5,
+            12.5,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            15.75,
+            14.25,
+            16,
+            14.5
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        2,
+        9.25,
+        0.5
+      ],
+      "to": [
+        2.25,
+        9.75,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.75,
+            13.5,
+            13,
+            13.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            14,
+            13.75,
+            14.25,
+            13.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            8.25,
+            8.75,
+            8.5,
+            9.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            14.75,
+            13.75,
+            14.5,
+            14.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            8.25,
+            8.25,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            8.75,
+            8.75,
+            9.25
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        1.5,
+        10,
+        0.5
+      ],
+      "to": [
+        2.25,
+        10.25,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.5,
+            8.25,
+            5.25,
+            8.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            4.5,
+            8.25,
+            5.25,
+            8
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            5.25,
+            8.25,
+            6,
+            8.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            6,
+            9,
+            5.25,
+            9.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            11.5,
+            10.25,
+            11.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10.25,
+            11.75,
+            10.5,
+            12
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        1.5,
+        24.25,
+        0.5
+      ],
+      "to": [
+        2.25,
+        24.5,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            5.25,
+            8,
+            6,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            6.75,
+            9,
+            7.5,
+            8.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            6.75,
+            8.25,
+            7.5,
+            8.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            7.5,
+            8.5,
+            6.75,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            15,
+            13.75,
+            14.75,
+            14
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            15.75,
+            14.5,
+            16,
+            14.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        2,
+        24.5,
+        0.5
+      ],
+      "to": [
+        2.25,
+        25,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10,
+            12.5,
+            10.25,
+            12.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            15,
+            14,
+            15.25,
+            13.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            9.75,
+            8.75,
+            10,
+            9.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            8.25,
+            9.5,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            14.5,
+            13.75,
+            14.25,
+            14.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            14,
+            13.75,
+            14.25,
+            14.25
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        1.5,
+        25.25,
+        0.5
+      ],
+      "to": [
+        2.25,
+        25.5,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6.75,
+            8,
+            7.5,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            7.5,
+            9.25,
+            8.25,
+            9
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            7.5,
+            8.5,
+            8.25,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            8.75,
+            7.5,
+            9
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            15.5,
+            13.5,
+            15.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            15.75,
+            14,
+            16,
+            14.25
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        1.5,
+        9.5,
+        0.5
+      ],
+      "to": [
+        2,
+        9.75,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.25,
+            8,
+            8.75,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            9.25,
+            8.25,
+            9.75,
+            8
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            15.5,
+            15.5,
+            16,
+            15.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            16,
+            15.75,
+            15.5,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            11.25,
+            10,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10,
+            11.5,
+            10.25,
+            11.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        1.5,
+        24.75,
+        0.5
+      ],
+      "to": [
+        2,
+        25,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.5,
+            15.25,
+            16,
+            15.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            15.5,
+            15.25,
+            16,
+            15
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            15.25,
+            14.75,
+            15.75,
+            15
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            15.25,
+            14.75,
+            14.75,
+            15
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            9.75,
+            10,
+            10
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10,
+            10,
+            10.25,
+            10.25
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        1.5,
+        9.25,
+        0.5
+      ],
+      "to": [
+        1.75,
+        9.5,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10,
+            9.5,
+            10.25,
+            9.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            10,
+            9.5,
+            10.25,
+            9.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            10,
+            8.75,
+            10.25,
+            9
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            10.25,
+            9,
+            10,
+            9.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            8.25,
+            10,
+            8.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            10,
+            8.5,
+            10.25,
+            8.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        1.5,
+        24.5,
+        0.5
+      ],
+      "to": [
+        1.75,
+        24.75,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10,
+            8,
+            10.25,
+            8.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            11.25,
+            13.75,
+            11.5,
+            13.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            11.75,
+            13.5,
+            12,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            11.75,
+            13.5,
+            11.5,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            11,
+            10.25,
+            11.25
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            12,
+            13.5,
+            12.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        0.5,
+        8.5,
+        0
+      ],
+      "to": [
+        1.25,
+        10.75,
+        0.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.5,
+            8.25,
+            8.25,
+            8.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            14.75,
+            15.75,
+            15.5,
+            15.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            6.75,
+            13.75,
+            7.5,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            6,
+            9.25,
+            5.25,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            13.75,
+            13,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            13.25,
+            13.75,
+            13.5,
+            16
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        0.5,
+        23.75,
+        0
+      ],
+      "to": [
+        1.25,
+        26,
+        0.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14,
+            15.25,
+            14.75,
+            15.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            14.75,
+            15.5,
+            15.5,
+            15.25
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            4.5,
+            9.25,
+            5.25,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            9.25,
+            6,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            12,
+            13.75,
+            11.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            12,
+            13.75,
+            12.25,
+            16
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        0.5,
+        8.5,
+        0.25
+      ],
+      "to": [
+        0.75,
+        10.75,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14.75,
+            14,
+            15,
+            14.5
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            15,
+            14.5,
+            15.25,
+            14
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            13.5,
+            13.75,
+            13.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            14,
+            13.75,
+            13.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            9.25,
+            9.25,
+            8.75,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            9.25,
+            13.75,
+            9.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    },
+    {
+      "__comment": "Voxels",
+      "from": [
+        0.5,
+        23.75,
+        0.25
+      ],
+      "to": [
+        0.75,
+        26,
+        0.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10,
+            13.25,
+            10.25,
+            13.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            10,
+            13.25,
+            10.25,
+            12.75
+          ],
+          "texture": "#locker_texture",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            12.5,
+            13.75,
+            12.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "south": {
+          "uv": [
+            13,
+            13.75,
+            12.75,
+            16
+          ],
+          "texture": "#locker_texture"
+        },
+        "west": {
+          "uv": [
+            8,
+            9.25,
+            7.5,
+            11.5
+          ],
+          "texture": "#locker_texture"
+        },
+        "east": {
+          "uv": [
+            8.75,
+            11.5,
+            9.25,
+            13.75
+          ],
+          "texture": "#locker_texture"
+        }
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -133,
+        0
+      ],
+      "translation": [
+        0,
+        -2.782,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2.7826,
+        0
+      ]
+    }
+  }
+}

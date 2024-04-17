@@ -1,1 +1,6 @@
-tile.dfexample.blender.name=Blender
+//Mr cray Fish
+tile.decoration.blender.name=Blender
+
+//Gym craft
+tile.decoration.gymLocker.name=Gym Locker
+tile.decoration.carpet1.name=Carpet 1
