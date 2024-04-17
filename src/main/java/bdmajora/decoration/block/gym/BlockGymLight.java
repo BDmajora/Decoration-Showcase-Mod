@@ -1,5 +1,6 @@
 package bdmajora.decoration.block.gym;
 
+import net.minecraft.core.block.Block;
 import net.minecraft.core.block.BlockTransparent;
 import net.minecraft.core.block.material.Material;
 import net.minecraft.core.entity.player.EntityPlayer;
@@ -8,6 +9,9 @@ import net.minecraft.core.world.World;
 import useless.dragonfly.model.block.processed.BlockCube;
 
 import java.util.ArrayList;
+
+import static bdmajora.decoration.block.ModBlocks.gymLight;
+import static bdmajora.decoration.block.ModBlocks.gymLightOn;
 
 public class BlockGymLight extends BlockTransparent {
 	public useless.dragonfly.model.block.processed.BlockModel model;
@@ -18,9 +22,24 @@ public class BlockGymLight extends BlockTransparent {
 
 	@Override
 	public boolean blockActivated(World world, int x, int y, int z, EntityPlayer player) {
-		int meta = world.getBlockMetadata(x, y, z);
-		meta = meta == 0 ? 1 : 0; // Toggle the meta value between 0 (off) and 1 (on)
-		world.setBlockMetadataWithNotify(x, y, z, meta);
+		// Get the current block
+		Block currentBlock = Block.blocksList[world.getBlockId(x, y, z)];
+
+		// Determine the new block and metadata based on the current block and metadata
+		Block newBlock;
+		int newMeta;
+		if (currentBlock == gymLight) {
+			newBlock = gymLightOn;
+			newMeta = 1; // 'on' state
+		} else { // currentBlock == gymLightOn
+			newBlock = gymLight;
+			newMeta = 0; // 'off' state
+		}
+
+		// Replace the block and set the new metadata
+		world.setBlockWithNotify(x, y, z, newBlock.id);
+		world.setBlockMetadataWithNotify(x, y, z, newMeta);
+
 		return true;
 	}
 

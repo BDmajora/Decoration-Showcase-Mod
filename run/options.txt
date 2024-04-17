@@ -10,7 +10,7 @@ sound.weather:1.0
 fov:1.0
 mouseSensitivity:0.5
 screenPadding:0.0
-gamma:0.5
+gamma:0.75
 fxaa:1.0
 controllerSensitivity:0.5
 controllerMenuSensitivity:0.5
