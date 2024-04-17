@@ -1,0 +1,11 @@
+{
+    "parent": "decoration:block/mcf/ceiling_light",
+    "textures": {
+        "1": "decoration:block/gray_concrete",
+        "2": "decoration:block/white_concrete",
+        "3": "decoration:block/yellow_stained_glass",
+        "4": "decoration:block/white_stained_glass",
+        "5": "decoration:block/white_stained_glass"
+    }
+}
+

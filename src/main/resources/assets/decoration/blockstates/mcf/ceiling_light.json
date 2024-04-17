@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "on=false": {
+      "model": "decoration:block/mcf/ceiling_light_off_pre"
+    },
+    "on=true": {
+      "model": "decoration:block/mcf/ceiling_light_pre"
+    }
+  }
+}
