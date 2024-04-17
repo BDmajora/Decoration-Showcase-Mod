@@ -1,5 +1,5 @@
 {
-    "parent": "decoration:block/blender",
+    "parent": "decoration:block/mcf/blender",
     "textures": {
         "1": "decoration:block/gray_concrete",
         "2": "decoration:block/white_concrete",

@@ -1,0 +1,13 @@
+{
+  "parent": "gymcraft:custom/recumbent_bike_model",
+  "textures": {
+    "all": "gymcraft:blocks/recumbent_bike_gui",
+    "particle": "gymcraft:blocks/recumbent_bike_gui",
+    "recumbent_main_texture": "gymcraft:blocks/recumbent_main_texture",
+    "recumbent_support_texture": "gymcraft:blocks/recumbent_support_texture",
+    "recumbent_seat_back_texture": "gymcraft:blocks/recumbent_seat_back_texture",
+    "recumbent_handle_texture": "gymcraft:blocks/recumbent_handle_texture",
+    "recumbent_seat_lower_texture": "gymcraft:blocks/recumbent_seat_lower_texture",
+    "bike_screen_texture": "gymcraft:blocks/bike_screen_texture"
+  }
+}

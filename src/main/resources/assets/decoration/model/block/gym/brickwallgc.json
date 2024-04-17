@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gymcraft:blocks/brick_texture",
+    "up": "gymcraft:blocks/brick_texture",
+    "north": "gymcraft:blocks/brick_texture",
+    "east": "gymcraft:blocks/brick_texture",
+    "south": "gymcraft:blocks/brick_texture",
+    "west": "gymcraft:blocks/brick_texture",
+    "particle": "gymcraft:blocks/brick_texture"
+  }
+}

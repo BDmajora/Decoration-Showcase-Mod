@@ -1,0 +1,9 @@
+{
+  "parent": "decoration:custom/locker_model",
+  "textures": {
+    "all": "decoration:block/locker_gui",
+    "particle": "decoration:block/locker_gui",
+    "wood_texture2": "decoration:block/wood_texture2",
+    "locker_texture": "decoration:block/locker_texture"
+  }
+}

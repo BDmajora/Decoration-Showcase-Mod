@@ -1,0 +1,10 @@
+{
+  "parent": "gymcraft:custom/treadmill_model",
+  "textures": {
+    "all": "gymcraft:blocks/treadmill_gui",
+    "particle": "gymcraft:blocks/treadmill_gui",
+    "treadmill_button_texture": "gymcraft:blocks/treadmill_button_texture",
+    "treadmill_screen_texture": "gymcraft:blocks/treadmill_screen_texture",
+    "treadmill_main_texture": "gymcraft:blocks/treadmill_main_texture"
+  }
+}

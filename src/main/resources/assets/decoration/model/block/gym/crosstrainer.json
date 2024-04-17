@@ -1,0 +1,13 @@
+{
+  "parent": "gymcraft:custom/cross_trainer_model",
+  "textures": {
+    "all": "gymcraft:blocks/cross_trainer_gui",
+    "particle": "gymcraft:blocks/cross_trainer_gui",
+    "cross_step_texture": "gymcraft:blocks/cross_step_texture",
+    "cross_handle_texture": "gymcraft:blocks/cross_handle_texture",
+    "cross_main_texture": "gymcraft:blocks/cross_main_texture",
+    "cross_screen_texture": "gymcraft:blocks/cross_screen_texture",
+    "cross_joint_texture": "gymcraft:blocks/cross_joint_texture",
+    "bike_screen_texture": "gymcraft:blocks/bike_screen_texture"
+  }
+}

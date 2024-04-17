@@ -1,0 +1,9 @@
+{
+  "parent": "gymcraft:custom/bench_model",
+  "textures": {
+    "all": "gymcraft:blocks/bench_gui",
+    "particle": "gymcraft:blocks/bench_gui",
+    "bench_frame_texture": "gymcraft:blocks/bench_frame_texture",
+    "wood_texture2": "gymcraft:blocks/wood_texture2"
+  }
+}

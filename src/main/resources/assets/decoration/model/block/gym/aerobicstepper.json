@@ -1,0 +1,8 @@
+{
+  "parent": "gymcraft:custom/aerobic_model",
+  "textures": {
+    "all": "gymcraft:blocks/aerobic_gui",
+    "particle": "gymcraft:blocks/aerobic_gui",
+    "aerobic_texture": "gymcraft:blocks/aerobic_texture"
+  }
+}

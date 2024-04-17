@@ -1,0 +1,10 @@
+{
+  "parent": "gymcraft:custom/bike_upright_model",
+  "textures": {
+    "all": "gymcraft:blocks/bike_upright_gui",
+    "particle": "gymcraft:blocks/bike_upright_gui",
+    "bike_main_texture": "gymcraft:blocks/bike_main_texture",
+    "bike_handles_texture": "gymcraft:blocks/bike_handles_texture",
+    "bike_screen_texture": "gymcraft:blocks/bike_screen_texture"
+  }
+}

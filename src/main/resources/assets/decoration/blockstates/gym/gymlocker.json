@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "decoration:block/gym/gymlocker"
+    },
+    "facing=north": {
+      "model": "decoration:block/gym/gymlocker"
+    },
+    "facing=east": {
+      "model": "decoration:block/gym/gymlocker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "decoration:block/gym/gymlocker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decoration:block/gym/gymlocker",
+      "y": 270
+    }
+  }
+}

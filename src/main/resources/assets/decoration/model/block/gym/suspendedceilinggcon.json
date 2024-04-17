@@ -1,0 +1,9 @@
+{
+  "parent": "gymcraft:custom/ceiling_lighton_model",
+  "textures": {
+    "all": "gymcraft:blocks/ceiling_lighton_model",
+    "particle": "gymcraft:blocks/ceiling_lighton_model",
+    "ceiling_light_texture": "gymcraft:blocks/ceiling_light_texture",
+    "light_on_texture": "gymcraft:blocks/light_on_texture"
+  }
+}

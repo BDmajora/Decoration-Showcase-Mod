@@ -1,0 +1,9 @@
+{
+  "parent": "gymcraft:custom/hanging_light_on_model",
+  "textures": {
+    "all": "gymcraft:blocks/hanging_light_on_model",
+    "particle": "gymcraft:blocks/hanging_light_on_model",
+    "light_shade_texture": "gymcraft:blocks/light_shade_texture",
+    "light_on_texture": "gymcraft:blocks/light_on_texture"
+  }
+}

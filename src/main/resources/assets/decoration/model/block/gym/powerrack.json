@@ -1,0 +1,8 @@
+{
+  "parent": "gymcraft:custom/power_rack_model",
+  "textures": {
+    "all": "gymcraft:blocks/power_rack_gui",
+    "particle": "gymcraft:blocks/power_rack_gui",
+    "power_rack_texture": "gymcraft:blocks/power_rack_texture"
+  }
+}

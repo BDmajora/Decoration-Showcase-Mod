@@ -1,0 +1,9 @@
+{
+  "parent": "gymcraft:custom/desk_main_model",
+  "textures": {
+    "all": "gymcraft:blocks/desk_main_gui",
+    "particle": "gymcraft:blocks/desk_main_gui",
+    "wood_texture2": "gymcraft:blocks/wood_texture2",
+    "stainless_steel_texture": "gymcraft:blocks/stainless_steel_texture"
+  }
+}

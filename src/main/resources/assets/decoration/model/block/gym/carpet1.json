@@ -1,0 +1,12 @@
+{
+  "parent": "decoration:block/cube",
+  "textures": {
+    "down": "decoration:block/carpet2_texture",
+    "up": "decoration:block/carpet2_texture",
+    "north": "decoration:block/carpet2_texture",
+    "east": "decoration:block/carpet2_texture",
+    "south": "decoration:block/carpet2_texture",
+    "west": "decoration:block/carpet2_texture",
+    "particle": "decoration:block/carpet2_texture"
+  }
+}
