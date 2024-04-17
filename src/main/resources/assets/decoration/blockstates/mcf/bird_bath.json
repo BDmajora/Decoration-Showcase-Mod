@@ -1,0 +1,11 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"inventory": {
+			"model": "decoration:block/mcf/bird_bath"
+		},
+		"normal": {
+			"model": "decoration:block/mcf/bird_bath"
+		}
+	}
+}

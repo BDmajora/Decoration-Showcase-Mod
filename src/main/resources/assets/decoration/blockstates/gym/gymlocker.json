@@ -1,8 +1,5 @@
 {
   "variants": {
-    "normal": {
-      "model": "decoration:block/gym/gymlocker"
-    },
     "facing=north": {
       "model": "decoration:block/gym/gymlocker"
     },

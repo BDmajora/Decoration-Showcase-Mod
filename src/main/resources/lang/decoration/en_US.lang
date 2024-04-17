@@ -1,6 +1,13 @@
 //Mr cray Fish
 tile.decoration.blender.name=Blender
+tile.decoration.birdBath.name=Bird Bath
 
 //Gym craft
 tile.decoration.gymLocker.name=Gym Locker
 tile.decoration.carpet1.name=Carpet 1
+tile.decoration.carpet2.name=Carpet 2
+
+//Arcade Machines
+tile.decoration.tetris.name=Tetris
+tile.decoration.creeperPlushy.name=Creeper Plushy
+tile.decoration.pigPlushy.name=Pig Plushy

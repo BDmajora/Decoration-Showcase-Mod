@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "gymcraft:treadmill"
+    },
+    "facing=north": {
+      "model": "gymcraft:treadmill"
+    },
+    "facing=east": {
+      "model": "gymcraft:treadmill",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gymcraft:treadmill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gymcraft:treadmill",
+      "y": 270
+    }
+  }
+}
