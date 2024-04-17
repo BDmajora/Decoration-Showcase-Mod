@@ -1,12 +1,12 @@
 {
-  "parent": "gymcraft:custom/sink_model",
+  "parent": "decoration:custom/sink_model",
   "textures": {
-    "all": "gymcraft:blocks/sink_gui",
-    "particle": "gymcraft:blocks/sink_gui",
-    "wood_texture2": "gymcraft:blocks/wood_texture2",
-    "mirror_texture": "gymcraft:blocks/mirror_texture",
-    "light_on_texture": "gymcraft:blocks/light_on_texture",
-    "tap_texture": "gymcraft:blocks/tap_texture",
-    "sink_texture": "gymcraft:blocks/sink_texture"
+    "all": "decoration:block/sink_gui",
+    "particle": "decoration:block/sink_gui",
+    "wood_texture2": "decoration:block/wood_texture2",
+    "mirror_texture": "decoration:block/mirror_texture",
+    "light_on_texture": "decoration:block/light_on_texture",
+    "tap_texture": "decoration:block/tap_texture",
+    "sink_texture": "decoration:block/sink_texture"
   }
 }

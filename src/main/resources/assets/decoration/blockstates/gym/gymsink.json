@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decoration:block/gym/gymsink"
+    },
+    "facing=east": {
+      "model": "decoration:block/gym/gymsink",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "decoration:block/gym/gymsink",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decoration:block/gym/gymsink",
+      "y": 270
+    }
+  }
+}
