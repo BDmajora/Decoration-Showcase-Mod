@@ -87,7 +87,7 @@ public class ModBlocks {
 	public static final Block crossTrainer = new BlockBuilder(MOD_ID)
 		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/crosstrainer.json"),
 			getOrCreateBlockState(MOD_ID, "gym/crosstrainer.json"), new CrossTrainerMetaState(), true))
-		.build(new BlockBenchgc("crossTrainer", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/crosstrainer.json")));
+		.build(new BlockCrossTrainer("crossTrainer", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/crosstrainer.json")));
 
 	public static final Block gymBallPurple = new BlockBuilder(MOD_ID)
 		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/gymballpurple.json")))
@@ -118,6 +118,81 @@ public class ModBlocks {
 			getOrCreateBlockState(MOD_ID, "gym/hanginglight.json"), new GymLightMetaState(), true))
 		.build(new BlockGymLight("gymLight", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/hanginglighton.json")));
 
+	public static final Block lightSupportBracket = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/lightsupportbracket.json"),
+			getOrCreateBlockState(MOD_ID, "gym/lightsupportbracket.json"), null, true))
+		.build(new BlockModel("lightSupportBracket", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/lightsupportbracket.json")));
+
+	public static final Block membershipForm = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/membershipform.json"),
+			getOrCreateBlockState(MOD_ID, "gym/membershipform.json"), new MembershipFormMetaState(), true))
+		.build(new BlockMembershipForm ("membershipForm", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/membershipform.json")));
+
+	public static final Block powerRack = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/powerrack.json"),
+			getOrCreateBlockState(MOD_ID, "gym/powerrack.json"), new PowerRackMetaState(), true))
+		.build(new BlockPowerRack("powerRack", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/powerrack.json")));
+
+	public static final Block receptionDeskCornerGC = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/receptiondeskcornergc.json"),
+			getOrCreateBlockState(MOD_ID, "gym/receptiondeskcornergc.json"), new ReceptionDeskCornerGCMetaState(), true))
+		.build(new BlockReceptionDeskCornerGC("receptionDeskCornerGC", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/receptiondeskcornergc.json")));
+
+	public static final Block receptionDeskGC = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/receptiondeskgc.json"),
+			getOrCreateBlockState(MOD_ID, "gym/receptiondeskgc.json"), new ReceptionDeskGCMetaState(), true))
+		.build(new BlockReceptionDeskGC("receptionDeskGC", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/receptiondeskgc.json")));
+
+	public static final Block recumbentBike = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/recumbentbike.json"),
+			getOrCreateBlockState(MOD_ID, "gym/recumbentbike.json"), new RecumbentBikeMetaState(), true))
+		.build(new BlockRecumbentBike("recumbentBike", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/recumbentbike.json")));
+
+	public static final Block rowingMachine = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/rowingmachine.json"),
+			getOrCreateBlockState(MOD_ID, "gym/rowingmachine.json"), new RowingMachineMetaState(), true))
+		.build(new BlockRowingMachine("rowingMachine", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/rowingmachine.json")));
+
+	public static final Block suspendedCeilingGC = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/suspendedceilinggcoff.json"),
+			getOrCreateBlockState(MOD_ID, "gym/suspendedceilinggc.json"), new SuspendedCeilingGCMetaState(), true))
+		.build(new BlockSuspendedCeilingGC("suspendedCeilingGC", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/suspendedceilinggcoff.json")));
+
+	public static final Block suspendedCeilingGCOn = new BlockBuilder(MOD_ID)
+		.setLuminance(15)
+		.addTags(BlockTags.NOT_IN_CREATIVE_MENU)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/suspendedceilinggcon.json"),
+			getOrCreateBlockState(MOD_ID, "gym/suspendedceilinggc.json"), new SuspendedCeilingGCMetaState(), true))
+		.build(new BlockSuspendedCeilingGC("suspendedCeilingGCOn", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/suspendedceilinggcon.json")));
+
+	public static final Block uprightBike = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/uprightbike.json"),
+			getOrCreateBlockState(MOD_ID, "gym/uprightbike.json"), new UprightBikeMetaState(), true))
+		.build(new BlockUprightBike("uprightBike", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/uprightbike.json")));
+
+	public static final Block vendingMachine = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/vendingmachine.json"),
+			getOrCreateBlockState(MOD_ID, "gym/vendingmachine.json"), new VendingMachineMetaState(), true))
+		.build(new BlockVendingMachine("vendingMachine", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/vendingmachine.json")));
+
+	public static final Block vinylGC = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/vinylgc.json")))
+		.build(new BlockModel("vinylGC", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/vinylgc.json")));
+
+	public static final Block weightBench = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/weightbench.json"),
+			getOrCreateBlockState(MOD_ID, "gym/weightbench.json"), new WeightBenchMetaState(), true))
+		.build(new BlockWeightBench("weightBench", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/weightbench.json")));
+
+	public static final Block weighTrack = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/weightrack.json"),
+			getOrCreateBlockState(MOD_ID, "gym/weightrack.json"), new WeighTrackMetaState(), true))
+		.build(new BlockWeighTrack("weighTrack", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/weightrack.json")));
+
+	public static final Block weightTree = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/weighttree.json"),
+			getOrCreateBlockState(MOD_ID, "gym/weighttree.json"), new WeightTreeMetaState(), true))
+		.build(new BlockWeightTree("weightTree", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/gym/weighttree.json")));
 
 	//arcade
 	public static final Block creeperPlushy = new BlockBuilder(MOD_ID)

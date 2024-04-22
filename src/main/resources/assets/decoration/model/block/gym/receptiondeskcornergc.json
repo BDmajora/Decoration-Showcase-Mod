@@ -1,9 +1,9 @@
 {
-  "parent": "gymcraft:custom/desk_corner_model",
+  "parent": "decoration:custom/desk_corner_model",
   "textures": {
-    "all": "gymcraft:blocks/desk_corner_gui",
-    "particle": "gymcraft:blocks/desk_corner_gui",
-    "wood_texture2": "gymcraft:blocks/wood_texture2",
-    "stainless_steel_texture": "gymcraft:blocks/stainless_steel_texture"
+    "all": "decoration:block/desk_corner_gui",
+    "particle": "decoration:block/desk_corner_gui",
+    "wood_texture2": "decoration:block/wood_texture2",
+    "stainless_steel_texture": "decoration:block/stainless_steel_texture"
   }
 }

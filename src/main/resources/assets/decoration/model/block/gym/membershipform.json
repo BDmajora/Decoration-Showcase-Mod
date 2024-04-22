@@ -1,9 +1,9 @@
 {
-  "parent": "gymcraft:custom/membership_form_model",
+  "parent": "decoration:custom/membership_form_model",
   "textures": {
-    "all": "gymcraft:blocks/membership_form_gui",
-    "particle": "gymcraft:blocks/membership_form_gui",
-    "clipboard_texture": "gymcraft:blocks/clipboard_texture",
-    "membership_form_texture": "gymcraft:blocks/membership_form_texture"
+    "all": "decoration:block/membership_form_gui",
+    "particle": "decoration:block/membership_form_gui",
+    "clipboard_texture": "decoration:block/clipboard_texture",
+    "membership_form_texture": "decoration:block/membership_form_texture"
   }
 }

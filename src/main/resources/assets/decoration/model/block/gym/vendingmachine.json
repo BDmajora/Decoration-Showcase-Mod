@@ -1,10 +1,10 @@
 {
-  "parent": "gymcraft:custom/vending_model",
+  "parent": "decoration:custom/vending_model",
   "textures": {
-    "all": "gymcraft:blocks/vending_gui",
-    "particle": "gymcraft:blocks/vending_gui",
-    "vending_main_texture": "gymcraft:blocks/vending_main_texture",
-    "vending_price_lcd_texture": "gymcraft:blocks/vending_price_lcd_texture",
-    "leonzade_vending_texture": "gymcraft:blocks/leonzade_vending_texture"
+    "all": "decoration:block/vending_gui",
+    "particle": "decoration:block/vending_gui",
+    "vending_main_texture": "decoration:block/vending_main_texture",
+    "vending_price_lcd_texture": "decoration:block/vending_price_lcd_texture",
+    "leonzade_vending_texture": "decoration:block/leonzade_vending_texture"
   }
 }

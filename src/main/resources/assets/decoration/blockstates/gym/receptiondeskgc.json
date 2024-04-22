@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decoration:block/gym/receptiondeskgc"
+    },
+    "facing=east": {
+      "model": "decoration:block/gym/receptiondeskgc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "decoration:block/gym/receptiondeskgc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decoration:block/gym/receptiondeskgc",
+      "y": 270
+    }
+  }
+}

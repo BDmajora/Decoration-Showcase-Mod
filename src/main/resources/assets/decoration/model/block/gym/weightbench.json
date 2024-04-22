@@ -1,11 +1,11 @@
 {
-  "parent": "gymcraft:custom/weight_bench_model",
+  "parent": "decoration:custom/weight_bench_model",
   "textures": {
-    "all": "gymcraft:blocks/weight_bench_gui",
-    "particle": "gymcraft:blocks/weight_bench_gui",
-    "weights_texture": "gymcraft:blocks/weights_texture",
-    "bench_upper_texture": "gymcraft:blocks/bench_upper_texture",
-    "bench_bottom_texture": "gymcraft:blocks/bench_bottom_texture",
-    "main_frame_texture": "gymcraft:blocks/main_frame_texture"
+    "all": "decoration:block/weight_bench_gui",
+    "particle": "decoration:block/weight_bench_gui",
+    "weights_texture": "decoration:block/weights_texture",
+    "bench_upper_texture": "decoration:block/bench_upper_texture",
+    "bench_bottom_texture": "decoration:block/bench_bottom_texture",
+    "main_frame_texture": "decoration:block/main_frame_texture"
   }
 }

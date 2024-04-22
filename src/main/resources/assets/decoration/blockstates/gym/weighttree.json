@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decoration:block/gym/weighttree"
+    },
+    "facing=east": {
+      "model": "decoration:block/gym/weighttree",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "decoration:block/gym/weighttree",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decoration:block/gym/weighttree",
+      "y": 270
+    }
+  }
+}

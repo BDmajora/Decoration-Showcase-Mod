@@ -1,8 +1,8 @@
 {
-  "parent": "gymcraft:custom/weight_tree_model",
+  "parent": "decoration:custom/weight_tree_model",
   "textures": {
-    "all": "gymcraft:blocks/weight_tree_gui",
-    "particle": "gymcraft:blocks/weight_tree_gui",
-    "weight_tree_texture": "gymcraft:blocks/weight_tree_texture"
+    "all": "decoration:block/weight_tree_gui",
+    "particle": "decoration:block/weight_tree_gui",
+    "weight_tree_texture": "decoration:block/weight_tree_texture"
   }
 }

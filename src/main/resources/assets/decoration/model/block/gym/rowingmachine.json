@@ -1,10 +1,10 @@
 {
-  "parent": "gymcraft:custom/rowing_model",
+  "parent": "decoration:custom/rowing_model",
   "textures": {
-    "all": "gymcraft:blocks/rowing_gui",
-    "particle": "gymcraft:blocks/rowing_gui",
-    "rowing_main_texture": "gymcraft:blocks/rowing_main_texture",
-    "rowing_screen_texture": "gymcraft:blocks/rowing_screen_texture",
-    "rowing_screen_lcd_texture": "gymcraft:blocks/rowing_screen_lcd_texture"
+    "all": "decoration:block/rowing_gui",
+    "particle": "decoration:block/rowing_gui",
+    "rowing_main_texture": "decoration:block/rowing_main_texture",
+    "rowing_screen_texture": "decoration:block/rowing_screen_texture",
+    "rowing_screen_lcd_texture": "decoration:block/rowing_screen_lcd_texture"
   }
 }

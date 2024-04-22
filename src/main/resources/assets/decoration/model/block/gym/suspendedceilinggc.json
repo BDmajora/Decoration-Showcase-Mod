@@ -1,8 +1,8 @@
 {
-  "parent": "gymcraft:custom/ceiling_model",
+  "parent": "decoration:custom/ceiling_model",
   "textures": {
-    "all": "gymcraft:blocks/ceiling_gui",
-    "particle": "gymcraft:blocks/ceiling_gui",
-    "ceiling_texture": "gymcraft:blocks/ceiling_texture"
+    "all": "decoration:block/ceiling_gui",
+    "particle": "decoration:block/ceiling_gui",
+    "ceiling_texture": "decoration:block/ceiling_texture"
   }
 }

@@ -18,7 +18,21 @@ tile.decoration.gymBallLime.name=Gym Ball Lime
 tile.decoration.gymBallSilver.name=Gym Ball Silver
 tile.decoration.gymSink.name=Gym Sink
 tile.decoration.gymLight.name=Hanging Light
-
+tile.decoration.lightSupportBracket.name=Light Support Bracket
+tile.decoration.membershipForm.name=Membership Form
+tile.decoration.powerRack.name=Power Rack
+tile.decoration.receptionDeskCornerGC.name=Reception Desk Corner
+tile.decoration.receptionDeskGC.name=Reception Desk
+tile.decoration.recumbentBike.name=Recumbent Bike
+tile.decoration.rowingMachine.name=Rowing Machine
+tile.decoration.suspendedCeilingGC.name=Suspended Ceiling GC
+tile.decoration.suspendedCeilingGCOn.name=Suspended Ceiling GC On
+tile.decoration.uprightBike.name=Upright Bike
+tile.decoration.vendingMachine.name=Vending Machine
+tile.decoration.vinylGC.name=Vinyl GC
+tile.decoration.weightBench.name=Weight Bench
+tile.decoration.weighTrack.name=Weight Track
+tile.decoration.weightTree.name=Weight Tree
 
 //Arcade Machines
 tile.decoration.tetris.name=Tetris

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "on=false": {
+      "model": "decoration:block/gym/suspendedceilinggcoff"
+    },
+    "on=true": {
+      "model": "decoration:block/gym/suspendedceilinggcon"
+    }
+  }
+}

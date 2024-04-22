@@ -1,9 +1,9 @@
 {
-  "parent": "gymcraft:custom/ceiling_lightoff_model",
+  "parent": "decoration:custom/ceiling_lightoff_model",
   "textures": {
-    "all": "gymcraft:blocks/ceiling_lightoff_gui",
-    "particle": "gymcraft:blocks/ceiling_lightoff_gui",
-    "ceiling_light_texture": "gymcraft:blocks/ceiling_light_texture",
-    "light_off_texture": "gymcraft:blocks/light_off_texture"
+    "all": "decoration:block/ceiling_lightoff_gui",
+    "particle": "decoration:block/ceiling_lightoff_gui",
+    "ceiling_light_texture": "decoration:block/ceiling_light_texture",
+    "light_off_texture": "decoration:block/light_off_texture"
   }
 }
