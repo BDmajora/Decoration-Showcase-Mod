@@ -1,23 +1,19 @@
 {
     "variants": {
-        "facing=north,left=false,right=false": {"model": "decoration:block/mcf/tv_stand", "y": 270},
+        "facing=north,left=true,right=true": {"model": "decoration:block/mcf/tv_stand", "y": 270},
         "facing=north,left=true,right=false": {"model": "decoration:block/mcf/tv_stand_left", "y": 270},
         "facing=north,left=false,right=true": {"model": "decoration:block/mcf/tv_stand_right", "y": 270},
 
-
-        "facing=south,left=false,right=false": {"model": "decoration:block/mcf/tv_stand", "y": 90},
+        "facing=south,left=true,right=true": {"model": "decoration:block/mcf/tv_stand", "y": 90},
         "facing=south,left=true,right=false": {"model": "decoration:block/mcf/tv_stand_left", "y": 90},
         "facing=south,left=false,right=true": {"model": "decoration:block/mcf/tv_stand_right", "y": 90},
 
+        "facing=east,left=true,right=true": {"model": "decoration:block/mcf/tv_stand", "y": 0},
+        "facing=east,left=true,right=false": {"model": "decoration:block/mcf/tv_stand_left", "y": 0},
+        "facing=east,left=false,right=true": {"model": "decoration:block/mcf/tv_stand_right", "y": 0},
 
-        "facing=east,left=false,right=false": {"model": "decoration:block/mcf/tv_stand"},
-        "facing=east,left=true,right=false": {"model": "decoration:block/mcf/tv_stand_left"},
-        "facing=east,left=false,right=true": {"model": "decoration:block/mcf/tv_stand_right"},
-
-
-        "facing=west,left=false,right=false": {"model": "decoration:block/mcf/tv_stand", "y": 180},
+        "facing=west,left=true,right=true": {"model": "decoration:block/mcf/tv_stand", "y": 180},
         "facing=west,left=true,right=false": {"model": "decoration:block/mcf/tv_stand_left", "y": 180},
         "facing=west,left=false,right=true": {"model": "decoration:block/mcf/tv_stand_right", "y": 180}
-
     }
 }

@@ -67,7 +67,7 @@ limitFramerate:0
 customFpsLimit:0
 guiScale:2
 overlayMode:0
-rotationOverlayMode:0
+rotationOverlayMode:1
 animations:2
 customAnimations:true
 playerListPosition:2

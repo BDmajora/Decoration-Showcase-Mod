@@ -29,16 +29,16 @@ public class BlockTVStand extends BlockTransparent {
 		int meta = world.getBlockMetadata(x, y, z) & 0x11111100;
 		Direction hRotation = entity.getHorizontalPlacementDirection(side);
 		if (hRotation == Direction.NORTH) {
-			meta |= 0;
-		}
-		if (hRotation == Direction.EAST) {
 			meta |= 2;
 		}
-		if (hRotation == Direction.SOUTH) {
+		if (hRotation == Direction.EAST) {
 			meta |= 1;
 		}
-		if (hRotation == Direction.WEST) {
+		if (hRotation == Direction.SOUTH) {
 			meta |= 3;
+		}
+		if (hRotation == Direction.WEST) {
+			meta |= 0;
 		}
 
 		Block newBlock = this; // Initialize newBlock to this
