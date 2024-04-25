@@ -1,7 +1,7 @@
 {
     "parent": "decoration:block/mcf/blender",
     "textures": {
-        "1": "decoration:block/gray_concrete",
+        "1": "decoration:block/light_gray_concrete",
         "2": "decoration:block/white_concrete",
         "3": "decoration:block/white_stained_glass"
     }

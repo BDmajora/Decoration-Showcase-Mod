@@ -2,6 +2,9 @@
 tile.decoration.blender.name=Blender
 tile.decoration.birdBath.name=Bird Bath
 tile.decoration.ceilingLight.name=Ceiling Light
+tile.decoration.tv.name=tv
+tile.decoration.tvStand.name=tv Stand
+tile.decoration.blackCouch.name=Black Couch
 
 //Gym craft
 tile.decoration.gymLocker.name=Gym Locker

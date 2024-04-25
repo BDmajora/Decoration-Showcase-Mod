@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=north": {"model": "decoration:block/mcf/tv", "y": 270},
+        "facing=south": { "model": "decoration:block/mcf/tv", "y": 90},
+        "facing=east": { "model": "decoration:block/mcf/tv"},
+        "facing=west": { "model": "decoration:block/mcf/tv", "y": 180}
+        }
+    }
+}

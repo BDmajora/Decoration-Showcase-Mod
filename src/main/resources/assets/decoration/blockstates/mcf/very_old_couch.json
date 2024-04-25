@@ -1,0 +1,32 @@
+{
+    "variants": {
+        "facing=north": {"model": "decoration:block/mcf/couch", "y": 270},
+        "facing=south": { "model": "decoration:block/mcf/couch", "y": 90},
+        "facing=east": { "model": "decoration:block/mcf/couch"},
+        "facing=west": { "model": "decoration:block/mcf/couch", "y": 180},
+        "left=true": { "model": "decoration:block/mcf/couch_left"},
+        "left=false": { "model": "decoration:block/mcf/couch"},
+        "right=true": { "model": "decoration:block/mcf/couch_right"},
+        "right=false": { "model": "decoration:block/mcf/couch"},
+        "corner_left=true": { "model": "decoration:block/mcf/couch_corner_left"},
+        "corner_left=false": { "model": "decoration:block/mcf/couch"},
+        "corner_right=true": { "model": "decoration:block/mcf/couch_corner_right"},
+        "corner_right=false": { "model": "decoration:block/mcf/couch"},
+        "colour=0": {"textures": {"couch": "block/white_wool"}},
+        "colour=1": {"textures": {"couch": "block/orange_wool"}},
+        "colour=2": {"textures": {"couch": "block/magenta_wool"}},
+        "colour=3": {"textures": {"couch": "block/light_blue_wool"}},
+        "colour=4": {"textures": {"couch": "block/yellow_wool"}},
+        "colour=5": {"textures": {"couch": "block/lime_wool"}},
+        "colour=6": {"textures": {"couch": "block/pink_wool"}},
+        "colour=7": {"textures": {"couch": "block/gray_wool"}},
+        "colour=8": {"textures": {"couch": "block/light_gray_wool"}},
+        "colour=9": {"textures": {"couch": "block/cyan_wool"}},
+        "colour=10": {"textures": {"couch": "block/purple_wool"}},
+        "colour=11": {"textures": {"couch": "block/blue_wool"}},
+        "colour=12": {"textures": {"couch": "block/brown_wool"}},
+        "colour=13": {"textures": {"couch": "block/green_wool"}},
+        "colour=14": {"textures": {"couch": "block/red_wool"}},
+        "colour=15": {"textures": {"couch": "block/black_wool"}}
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "facing=north": {"model": "decoration:block/mcf/couch/black_couch", "y": 270},
+        "facing=south": { "model": "decoration:block/mcf/couch/black_couch", "y": 90},
+        "facing=east": { "model": "decoration:block/mcf/couch/black_couch"},
+        "facing=west": { "model": "decoration:block/mcf/couch/black_couch", "y": 180},
+        "left=true": { "model": "decoration:block/mcf/couch/black_couch_left"},
+        "left=false": { "model": "decoration:block/mcf/couch/black_couch"},
+        "right=true": { "model": "decoration:block/mcf/couch/black_couch_right"},
+        "right=false": { "model": "decoration:block/mcf/couch/black_couch"},
+        "corner_left=true": { "model": "decoration:block/mcf/couch/black_couch_corner_left"},
+        "corner_left=false": { "model": "decoration:block/mcf/couch/black_couch"},
+        "corner_right=true": { "model": "decoration:block/mcf/couch/black_couch_corner_right"},
+        "corner_right=false": { "model": "decoration:block/mcf/couch/black_couch"}
+    }
+}
+

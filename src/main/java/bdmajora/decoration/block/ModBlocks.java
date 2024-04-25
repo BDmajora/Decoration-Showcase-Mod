@@ -3,16 +3,18 @@ package bdmajora.decoration.block;
 import bdmajora.decoration.block.dragonfly.BlockModel;
 import bdmajora.decoration.block.gym.*;
 import bdmajora.decoration.block.mcf.BlockCeilingLight;
+import bdmajora.decoration.block.mcf.BlockTV;
+import bdmajora.decoration.block.mcf.BlockTVStand;
+import bdmajora.decoration.block.mcf.Couch.BlockBlackCouch;
 import bdmajora.decoration.block.metastates.gym.*;
-import bdmajora.decoration.block.metastates.mcf.CeilingLightMetaState;
-import net.minecraft.client.render.block.color.BlockColorWater;
+import bdmajora.decoration.block.metastates.mcf.*;
+import bdmajora.decoration.block.metastates.mcf.Couch.BlackCouchMetaState;
 import net.minecraft.core.block.Block;
 import net.minecraft.core.block.material.Material;
 import net.minecraft.core.block.tag.BlockTags;
 import turniplabs.halplibe.helper.BlockBuilder;
 import bdmajora.decoration.UtilIdRegistrar;
 import bdmajora.decoration.block.mcf.BlockBlender;
-import bdmajora.decoration.block.metastates.mcf.BlenderMetaState;
 import useless.dragonfly.helper.ModelHelper;
 import useless.dragonfly.model.block.BlockModelDragonFly;
 
@@ -25,7 +27,7 @@ public class ModBlocks {
 	public static final Block blender = new BlockBuilder(MOD_ID)
 		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/blender_pre.json"),
 			getOrCreateBlockState(MOD_ID, "mcf/blender.json"), new BlenderMetaState(), true))
-		.build(new BlockModel("blender", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/blender_pre.json")));
+		.build(new BlockBlender("blender", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/blender_pre.json")));
 
 	public static final Block birdBath = new BlockBuilder(MOD_ID)
 		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/bird_bath.json"),
@@ -43,6 +45,53 @@ public class ModBlocks {
 		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/ceiling_light_pre.json"),
 			getOrCreateBlockState(MOD_ID, "mcf/ceiling_light.json"), new CeilingLightMetaState(), true))
 		.build(new BlockCeilingLight("gymLightOn", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/ceiling_light_pre.json")));
+
+	public static final Block tv = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv.json"),
+			getOrCreateBlockState(MOD_ID, "mcf/tv.json"), new TVMetaState(), true))
+		.build(new BlockTV("tv", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv.json")));
+
+	public static final Block tvStand = new BlockBuilder(MOD_ID)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand.json"),
+			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
+		.build(new BlockTVStand("tvStand", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand.json")));
+
+	public static final Block tvStandLeft = new BlockBuilder(MOD_ID)
+		.addTags(BlockTags.NOT_IN_CREATIVE_MENU)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_left.json"),
+			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
+		.build(new BlockTVStand("tvStandLeft", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_left.json")));
+
+	public static final Block tvStandRight = new BlockBuilder(MOD_ID)
+		.addTags(BlockTags.NOT_IN_CREATIVE_MENU)
+		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_right.json"),
+			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
+		.build(new BlockTVStand("tvStandRight", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_right.json")));
+
+//	public static final Block blackCouch = new BlockBuilder(MOD_ID)
+//		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch.json"),
+//			getOrCreateBlockState(MOD_ID, "mcf/couch/black_couch.json"), new BlackCouchMetaState(), true))
+//		.build(new BlockBlackCouch("blackCouch", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch.json")));
+//
+//	public static final Block blackCouchLeft = new BlockBuilder(MOD_ID)
+//		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch_left.json"),
+//			getOrCreateBlockState(MOD_ID, "mcf/couch/black_couch.json"), new BlackCouchMetaState(), true))
+//		.build(new BlockModel("blackCouchLeft", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch_left.json")));
+//
+//	public static final Block blackCouchRight = new BlockBuilder(MOD_ID)
+//		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch_right.json"),
+//			getOrCreateBlockState(MOD_ID, "mcf/couch/black_couch.json"), new BlackCouchMetaState(), true))
+//		.build(new BlockBlackCouch("blackCouchRight", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch_right.json")));
+//
+//	public static final Block blackCouchCornerLeft = new BlockBuilder(MOD_ID)
+//		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch_corner_left.json"),
+//			getOrCreateBlockState(MOD_ID, "mcf/couch/black_couch.json"), new BlackCouchMetaState(), true))
+//		.build(new BlockBlackCouch("blackCouchCornerLeft", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch_corner_left.json")));
+//
+//	public static final Block blackCouchCornerRight = new BlockBuilder(MOD_ID)
+//		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch_corner_right.json"),
+//			getOrCreateBlockState(MOD_ID, "mcf/couch/black_couch.json"), new BlackCouchMetaState(), true))
+//		.build(new BlockBlackCouch("blackCouchCornerRight", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch_corner_right.json")));
 
 	//gym
 	public static final Block gymLocker = new BlockBuilder(MOD_ID)
