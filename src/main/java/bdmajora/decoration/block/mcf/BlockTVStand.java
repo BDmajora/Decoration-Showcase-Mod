@@ -41,31 +41,62 @@ public class BlockTVStand extends BlockTransparent {
 			meta |= 3;
 		}
 
-		Block newBlock;
-		if (world.getBlockId(x - 1, y, z) == this.id) { // Check if there's a TVStand to the left
-			newBlock = tvStandRight;
-			if (world.getBlockId(x - 2, y, z) == this.id) { // Check if there's a TVStand to the left of the left TVStand
-				world.setBlockWithNotify(x - 1, y, z, tvStand.id); // Change the left TVStand to a tvStand
-			}
-		} else if (world.getBlockId(x + 1, y, z) == this.id) { // Check if there's a TVStand to the right
-			newBlock = tvStandLeft;
-			if (world.getBlockId(x + 2, y, z) == this.id) { // Check if there's a TVStand to the right of the right TVStand
-				world.setBlockWithNotify(x + 1, y, z, tvStand.id); // Change the right TVStand to a tvStand
-			}
-
-			else if (world.getBlockId(x - 1, y, z) == this.id) { // Check if there's a TVStand to the right
-				newBlock = tvStandRight;
-				if (world.getBlockId(x - 2, y, z) == this.id) { // Check if there's a TVStand to the right of the right TVStand
-					world.setBlockWithNotify(x + 1, y, z, tvStand.id); // Change the right TVStand to a tvStand
+		Block newBlock = this; // Initialize newBlock to this
+		switch (hRotation) {
+			case NORTH:
+				if (world.getBlockId(x - 1, y, z) == this.id) { // Check if there's a TVStand to the left
+					if (world.getBlockId(x - 2, y, z) == this.id) { // Check if there's a TVStand to the left of the left TVStand
+						world.setBlockWithNotify(x - 1, y, z, tvStand.id); // Change the left TVStand to a tvStand
+					}
+				} else if (world.getBlockId(x + 1, y, z) == this.id) { // Check if there's a TVStand to the right
+					newBlock = tvStandLeft;
+					if (world.getBlockId(x + 2, y, z) == this.id) { // Check if there's a TVStand to the right of the right TVStand
+						world.setBlockWithNotify(x + 1, y, z, tvStand.id); // Change the right TVStand to a tvStand
+					}
 				}
-			} else {
-				newBlock = this;
-			}
-
-			world.setBlockWithNotify(x, y, z, newBlock.id);
-			world.setBlockMetadataWithNotify(x, y, z, meta);
+				break;
+			case SOUTH:
+				if (world.getBlockId(x + 1, y, z) == this.id) { // Check if there's a TVStand to the left
+					if (world.getBlockId(x + 2, y, z) == this.id) { // Check if there's a TVStand to the left of the left TVStand
+						world.setBlockWithNotify(x + 1, y, z, tvStand.id); // Change the left TVStand to a tvStand
+					}
+				} else if (world.getBlockId(x - 1, y, z) == this.id) { // Check if there's a TVStand to the right
+					newBlock = tvStandLeft;
+					if (world.getBlockId(x - 2, y, z) == this.id) { // Check if there's a TVStand to the right of the right TVStand
+						world.setBlockWithNotify(x - 1, y, z, tvStand.id); // Change the right TVStand to a tvStand
+					}
+				}
+				break;
+			case EAST:
+				if (world.getBlockId(x, y, z - 1) == this.id) { // Check if there's a TVStand in front
+					if (world.getBlockId(x, y, z - 2) == this.id) { // Check if there's a TVStand in front of the front TVStand
+						world.setBlockWithNotify(x, y, z - 1, tvStand.id); // Change the front TVStand to a tvStand
+					}
+				} else if (world.getBlockId(x, y, z + 1) == this.id) { // Check if there's a TVStand at the back
+					newBlock = tvStandLeft;
+					if (world.getBlockId(x, y, z + 2) == this.id) { // Check if there's a TVStand at the back of the back TVStand
+						world.setBlockWithNotify(x, y, z + 1, tvStand.id); // Change the back TVStand to a tvStand
+					}
+				}
+				break;
+			case WEST:
+				if (world.getBlockId(x, y, z + 1) == this.id) { // Check if there's a TVStand in front
+					if (world.getBlockId(x, y, z + 2) == this.id) { // Check if there's a TVStand in front of the front TVStand
+						world.setBlockWithNotify(x, y, z + 1, tvStand.id); // Change the front TVStand to a tvStand
+					}
+				} else if (world.getBlockId(x, y, z - 1) == this.id) { // Check if there's a TVStand at the back
+					newBlock = tvStandLeft;
+					if (world.getBlockId(x, y, z - 2) == this.id) { // Check if there's a TVStand at the back of the back TVStand
+						world.setBlockWithNotify(x, y, z - 1, tvStand.id); // Change the back TVStand to a tvStand
+					}
+				}
+				break;
 		}
+
+		world.setBlockWithNotify(x, y, z, newBlock.id);
+		world.setBlockMetadataWithNotify(x, y, z, meta);
 	}
+
 
 
 	@Override
