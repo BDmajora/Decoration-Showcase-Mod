@@ -18,20 +18,20 @@ public class TVStandMetaState extends MetaStateInterpreter {
 			Direction facing = Direction.values()[hRotation];
 			switch (facing) {
 				case NORTH:
-					result.put("right", ((BlockTVStand)block).canConnectTo(worldSource, x - 1, y, z) ? "false" : "true");
-					result.put("left", ((BlockTVStand)block).canConnectTo(worldSource, x + 1, y, z) ? "false" : "true");
+					result.put("right", ((BlockTVStand)block).canConnectTo(worldSource, x - 1, y, z) ? "true" : "false");
+					result.put("left", ((BlockTVStand)block).canConnectTo(worldSource, x + 1, y, z) ? "true" : "false");
 					break;
 				case SOUTH:
-					result.put("right", ((BlockTVStand)block).canConnectTo(worldSource, x + 1, y, z) ? "false" : "true");
-					result.put("left", ((BlockTVStand)block).canConnectTo(worldSource, x - 1, y, z) ? "false" : "true");
+					result.put("right", ((BlockTVStand)block).canConnectTo(worldSource, x + 1, y, z) ? "true" : "false");
+					result.put("left", ((BlockTVStand)block).canConnectTo(worldSource, x - 1, y, z) ? "true" : "false");
 					break;
 				case EAST:
-					result.put("right", ((BlockTVStand)block).canConnectTo(worldSource, x, y, z + 1) ? "false" : "true");
-					result.put("left", ((BlockTVStand)block).canConnectTo(worldSource, x, y, z - 1) ? "false" : "true");
+					result.put("right", ((BlockTVStand)block).canConnectTo(worldSource, x, y, z + 1) ? "true" : "false");
+					result.put("left", ((BlockTVStand)block).canConnectTo(worldSource, x, y, z - 1) ? "true" : "false");
 					break;
 				case WEST:
-					result.put("right", ((BlockTVStand)block).canConnectTo(worldSource, x, y, z - 1) ? "false" : "true");
-					result.put("left", ((BlockTVStand)block).canConnectTo(worldSource, x, y, z + 1) ? "false" : "true");
+					result.put("right", ((BlockTVStand)block).canConnectTo(worldSource, x, y, z - 1) ? "true" : "false");
+					result.put("left", ((BlockTVStand)block).canConnectTo(worldSource, x, y, z + 1) ? "true" : "false");
 					break;
 			}
 		}

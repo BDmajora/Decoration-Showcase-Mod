@@ -3,10 +3,8 @@ package bdmajora.decoration.block;
 import bdmajora.decoration.block.dragonfly.BlockModel;
 import bdmajora.decoration.block.gym.*;
 import bdmajora.decoration.block.mcf.*;
-import bdmajora.decoration.block.mcf.Couch.BlockBlackCouch;
 import bdmajora.decoration.block.metastates.gym.*;
 import bdmajora.decoration.block.metastates.mcf.*;
-import bdmajora.decoration.block.metastates.mcf.Couch.BlackCouchMetaState;
 import net.minecraft.core.block.Block;
 import net.minecraft.core.block.material.Material;
 import net.minecraft.core.block.tag.BlockTags;
@@ -53,17 +51,17 @@ public class ModBlocks {
 			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
 		.build(new BlockTVStand("tvStand", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand.json")));
 
-	public static final Block tvStandLeft = new BlockBuilder(MOD_ID)
-		.addTags(BlockTags.NOT_IN_CREATIVE_MENU)
-		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_left.json"),
-			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
-		.build(new BlockTVStand("tvStandLeft", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_left.json")));
-
-	public static final Block tvStandRight = new BlockBuilder(MOD_ID)
-		.addTags(BlockTags.NOT_IN_CREATIVE_MENU)
-		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_right.json"),
-			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
-		.build(new BlockTVStand("tvStandRight", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_right.json")));
+//	public static final Block tvStandLeft = new BlockBuilder(MOD_ID)
+//		.addTags(BlockTags.NOT_IN_CREATIVE_MENU)
+//		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_left.json"),
+//			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
+//		.build(new BlockTVStand("tvStandLeft", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_left.json")));
+//
+//	public static final Block tvStandRight = new BlockBuilder(MOD_ID)
+//		.addTags(BlockTags.NOT_IN_CREATIVE_MENU)
+//		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_right.json"),
+//			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
+//		.build(new BlockTVStand("tvStandRight", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand_right.json")));
 
 //	public static final Block blackCouch = new BlockBuilder(MOD_ID)
 //		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/couch/black_couch.json"),
