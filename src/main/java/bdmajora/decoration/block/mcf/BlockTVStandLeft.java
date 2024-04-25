@@ -14,12 +14,13 @@ import useless.dragonfly.model.block.processed.BlockModel;
 
 import java.util.ArrayList;
 
-import static bdmajora.decoration.block.ModBlocks.*;
+import static bdmajora.decoration.block.ModBlocks.tvStandLeft;
+import static bdmajora.decoration.block.ModBlocks.tvStandRight;
 
-public class BlockTVStand extends BlockTransparent {
+public class BlockTVStandLeft extends BlockTransparent {
 	public BlockModel model;
 
-	public BlockTVStand(String key, int id, Material material, BlockModel model) {
+	public BlockTVStandLeft(String key, int id, Material material, BlockModel model) {
 		super(key, id, material, true);
 		this.model = model;
 	}
@@ -44,29 +45,15 @@ public class BlockTVStand extends BlockTransparent {
 		Block newBlock;
 		if (world.getBlockId(x - 1, y, z) == this.id) { // Check if there's a TVStand to the left
 			newBlock = tvStandRight;
-			if (world.getBlockId(x - 2, y, z) == this.id) { // Check if there's a TVStand to the left of the left TVStand
-				world.setBlockWithNotify(x - 1, y, z, tvStand.id); // Change the left TVStand to a tvStand
-			}
 		} else if (world.getBlockId(x + 1, y, z) == this.id) { // Check if there's a TVStand to the right
 			newBlock = tvStandLeft;
-			if (world.getBlockId(x + 2, y, z) == this.id) { // Check if there's a TVStand to the right of the right TVStand
-				world.setBlockWithNotify(x + 1, y, z, tvStand.id); // Change the right TVStand to a tvStand
-			}
-
-			else if (world.getBlockId(x - 1, y, z) == this.id) { // Check if there's a TVStand to the right
-				newBlock = tvStandRight;
-				if (world.getBlockId(x - 2, y, z) == this.id) { // Check if there's a TVStand to the right of the right TVStand
-					world.setBlockWithNotify(x + 1, y, z, tvStand.id); // Change the right TVStand to a tvStand
-				}
-			} else {
-				newBlock = this;
-			}
-
-			world.setBlockWithNotify(x, y, z, newBlock.id);
-			world.setBlockMetadataWithNotify(x, y, z, meta);
+		} else {
+			newBlock = this;
 		}
-	}
 
+		world.setBlockWithNotify(x, y, z, newBlock.id);
+		world.setBlockMetadataWithNotify(x, y, z, meta);
+	}
 
 	@Override
 	public boolean renderAsNormalBlock() {

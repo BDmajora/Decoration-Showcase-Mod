@@ -2,9 +2,7 @@ package bdmajora.decoration.block;
 
 import bdmajora.decoration.block.dragonfly.BlockModel;
 import bdmajora.decoration.block.gym.*;
-import bdmajora.decoration.block.mcf.BlockCeilingLight;
-import bdmajora.decoration.block.mcf.BlockTV;
-import bdmajora.decoration.block.mcf.BlockTVStand;
+import bdmajora.decoration.block.mcf.*;
 import bdmajora.decoration.block.mcf.Couch.BlockBlackCouch;
 import bdmajora.decoration.block.metastates.gym.*;
 import bdmajora.decoration.block.metastates.mcf.*;
@@ -14,7 +12,6 @@ import net.minecraft.core.block.material.Material;
 import net.minecraft.core.block.tag.BlockTags;
 import turniplabs.halplibe.helper.BlockBuilder;
 import bdmajora.decoration.UtilIdRegistrar;
-import bdmajora.decoration.block.mcf.BlockBlender;
 import useless.dragonfly.helper.ModelHelper;
 import useless.dragonfly.model.block.BlockModelDragonFly;
 
@@ -51,7 +48,7 @@ public class ModBlocks {
 			getOrCreateBlockState(MOD_ID, "mcf/tv.json"), new TVMetaState(), true))
 		.build(new BlockTV("tv", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv.json")));
 
-	public static final Block tvStand = new BlockBuilder(MOD_ID)
+		public static final Block tvStand = new BlockBuilder(MOD_ID)
 		.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand.json"),
 			getOrCreateBlockState(MOD_ID, "mcf/tv_stand.json"), new TVStandMetaState(), true))
 		.build(new BlockTVStand("tvStand", UtilIdRegistrar.nextIdBlock(), Material.metal, ModelHelper.getOrCreateBlockModel(MOD_ID, "block/mcf/tv_stand.json")));
